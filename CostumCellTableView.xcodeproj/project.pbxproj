@@ -16,6 +16,8 @@
 		0ACDC46E28BD083500F21CE0 /* CostumCellTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACDC46D28BD083500F21CE0 /* CostumCellTableViewTests.swift */; };
 		0ACDC47828BD083500F21CE0 /* CostumCellTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACDC47728BD083500F21CE0 /* CostumCellTableViewUITests.swift */; };
 		0ACDC47A28BD083500F21CE0 /* CostumCellTableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACDC47928BD083500F21CE0 /* CostumCellTableViewUITestsLaunchTests.swift */; };
+		0ACDC48728BD092100F21CE0 /* TableViewHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACDC48628BD092100F21CE0 /* TableViewHucre.swift */; };
+		0ACDC48928BEA79400F21CE0 /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACDC48828BEA79400F21CE0 /* Kisiler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0ACDC47328BD083500F21CE0 /* CostumCellTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CostumCellTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ACDC47728BD083500F21CE0 /* CostumCellTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostumCellTableViewUITests.swift; sourceTree = "<group>"; };
 		0ACDC47928BD083500F21CE0 /* CostumCellTableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostumCellTableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0ACDC48628BD092100F21CE0 /* TableViewHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHucre.swift; sourceTree = "<group>"; };
+		0ACDC48828BEA79400F21CE0 /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				0ACDC45F28BD083500F21CE0 /* Assets.xcassets */,
 				0ACDC46128BD083500F21CE0 /* LaunchScreen.storyboard */,
 				0ACDC46428BD083500F21CE0 /* Info.plist */,
+				0ACDC48628BD092100F21CE0 /* TableViewHucre.swift */,
+				0ACDC48828BEA79400F21CE0 /* Kisiler.swift */,
 			);
 			path = CostumCellTableView;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ACDC45B28BD083300F21CE0 /* ViewController.swift in Sources */,
+				0ACDC48728BD092100F21CE0 /* TableViewHucre.swift in Sources */,
 				0ACDC45728BD083300F21CE0 /* AppDelegate.swift in Sources */,
 				0ACDC45928BD083300F21CE0 /* SceneDelegate.swift in Sources */,
+				0ACDC48928BEA79400F21CE0 /* Kisiler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
