@@ -7,8 +7,16 @@
 
 import UIKit
 
+
+protocol TableViewHucreProtocol {
+    func hucreUzerindekiButonTiklandi(indexPath:IndexPath)
+}
+
 class TableViewHucre: UITableViewCell {
 
+    
+    var hucreProtocol:TableViewHucreProtocol?
+    var indexPath:IndexPath?
     
     @IBOutlet weak var kisiAdLabel: UILabel!
     
@@ -23,4 +31,13 @@ class TableViewHucre: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    
+    @IBAction func buttonTikla(_ sender: Any) {
+        
+        hucreProtocol?.hucreUzerindekiButonTiklandi(indexPath: indexPath!)
+        
+    }
+    
+    
+    
 }
